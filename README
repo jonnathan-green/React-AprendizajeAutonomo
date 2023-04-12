@@ -1,5 +1,16 @@
 *Carpeta mi App*
 
+*Cadenas personalizadas*
+Puede que prefieras crear y configurar tu propia cadena de herramientas. Una cadena de herramientas generalmente está compuesta por:
+
+- Un manejador de paquetes te permite instalar, actualizar y manejar paquetes de terceros. Manejadores de paquetes populares: npm (integrado en Node.js), Yarn, pnpm.
+-Un compilador te permite compilar para los navegadores funcionalidades modernas del lenguaje y sintaxis adicional como JSX o anotaciones de tipo. Compiladores populares: Babel, TypeScript, swc.
+-Un bundler (empaquetador) te permite escribir código modular y mezclarlo en paquetes más pequeños para optimizar el tiempo de carga. Bundlers populares: webpack, Parcel, esbuild, swc.
+-Un minificador hace tu código más compacto para que cargue más rápido. Minificadores populares: Terser, swc.
+-Un servidor maneja las peticiones al servidor para que puedas renderizar componentes en HTML. Servidores populares: Express.
+-Un linter chequea tu código buscando errores comunes. Linters populares: ESLint.
+-Un test runner (sistema de ejecución de pruebas) te permite ejecutar tus pruebas contra tu código. Test runners populares: Jest.
+
 1. Podemos iniciar creando nuestro proyecto con npx create-react-app
 2. npm start para poder correr nuestro proyecto 
 3. npm run build Crea la aplicación para la producción en la buildcarpeta. Empaqueta correctamente React en modo de producción y optimiza la compilación para obtener el mejor rendimiento.
