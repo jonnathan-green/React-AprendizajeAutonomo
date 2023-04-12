@@ -1,3 +1,5 @@
+*Carpeta mi App*
+
 1. Podemos iniciar creando nuestro proyecto con npx create-react-app
 2. npm start para poder correr nuestro proyecto 
 3. npm run build Crea la aplicación para la producción en la buildcarpeta. Empaqueta correctamente React en modo de producción y optimiza la compilación para obtener el mejor rendimiento.
