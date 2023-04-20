@@ -15,3 +15,15 @@ Puede que prefieras crear y configurar tu propia cadena de herramientas. Una cad
 2. npm start para poder correr nuestro proyecto 
 3. npm run build Crea la aplicación para la producción en la buildcarpeta. Empaqueta correctamente React en modo de producción y optimiza la compilación para obtener el mejor rendimiento.
 La compilación se minimiza y los nombres de archivo incluyen los hashes.
+
+**Primer componente**
+
+*Exportar el componente*: export default 
+*Definir la función*: function Profile() { } Nota: ¡Los componentes de React son funciones regulares de JavaScript, pero sus nombres deben comenzar con letra mayúscula o no funcionarán!
+*Añadir marcado*: return (
+  <div>
+    <img src="https://i.imgur.com/MK3eW3As.jpg" alt="Katherine Johnson" />
+  </div>
+);
+
+- Nuca se puede anidar las definiciones de un componente
